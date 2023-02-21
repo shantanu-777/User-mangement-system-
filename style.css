@@ -1,0 +1,41 @@
+form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+label,
+input,
+select {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+#userList {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 5px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}

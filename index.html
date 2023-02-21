@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>User Management System</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+  </head>
+  <body>
+    <h1>User Management System</h1>
+    <form>
+      <label for="fullName">Full Name:</label>
+      <input type="text" id="fullName" name="fullName" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="dateOfBirth">Date of Birth:</label>
+      <input type="date" id="dateOfBirth" name="dateOfBirth" required>
+
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender" required>
+        <option value="">--Select--</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+
+      <label for="hobby">Hobby:</label>
+      <input type="text" id="hobby" name="hobby" required>
+
+      <label for="country">Country:</label>
+      <select id="country" name="country" required>
+        <option value="">--Select--</option>
+        <option value="USA">USA</option>
+        <option value="Canada">Canada</option>
+        <option value="Mexico">Mexico</option>
+      </select>
+
+      <label for="state">State:</label>
+      <select id="state" name="state" required>
+        <option value="">--Select--</option>
+      </select>
+
+      <label for="city">City:</label>
+      <select id="city" name="city" required>
+        <option value="">--Select--</option>
+      </select>
+
+      <button type="button" id="addUser">Add User</button>
+      <button type="button" id="updateUser" style="display:none">Update User</button>
+      <button type="reset">Reset</button>
+    </form>
+
+    <div id="userList"></div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
